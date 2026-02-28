@@ -1,0 +1,32 @@
+.protein-banner-image-section {
+    background: linear-gradient(180deg, #06112a 0%, #081a3f 100%);
+}
+
+.full-width-banner-img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.protein-info-card {
+    background: #ffffff;
+    margin: 0 8px 12px;
+    padding: 12px 10px 14px;
+}
+
+.protein-card-label {
+    display: block;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #4f4f4f;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.protein-card-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #2a2a2a;
+}

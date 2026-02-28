@@ -1,0 +1,99 @@
+.variant-selector {
+    padding: 20px 16px;
+    background: var(--white);
+    border-top: 8px solid var(--beige);
+}
+
+.variant-heading {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+}
+
+.variant-grid {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+}
+
+.variant-card {
+    flex: 1;
+    min-width: 80px;
+    position: relative;
+    padding: 10px 5px;
+    border: 1px solid var(--border-light);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--white);
+    transition: all 0.2s;
+    background: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.variant-card.selected {
+    border-color: var(--dark-red);
+    background: #fff8f8;
+}
+
+.variant-card:hover:not(.selected) {
+    border-color: #ccc;
+}
+
+.bestseller-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #D92121;
+    color: white;
+    font-size: 9px;
+    font-weight: 800;
+    padding: 4px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.variant-img-wrapper {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--beige);
+}
+
+.variant-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.check-badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 20px;
+    height: 20px;
+    background: #34c759;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.variant-name {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-dark);
+    text-align: center;
+}

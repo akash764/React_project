@@ -1,0 +1,74 @@
+.product-info-section {
+    padding: 28px 16px;
+    background: var(--white);
+    border-top: 8px solid var(--beige);
+}
+
+.pi-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 18px;
+}
+
+.pi-table {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--border-light);
+    margin-bottom: 20px;
+}
+
+.pi-row {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--border-light);
+    background: var(--white);
+}
+
+.pi-row:last-child {
+    border-bottom: none;
+}
+
+.pi-row.even {
+    background: var(--off-white);
+}
+
+.pi-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.pi-value {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.pi-badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.pi-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    background: var(--beige);
+    border-radius: 10px;
+}
+
+.pi-badge-check {
+    color: #2e7d32;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.pi-badge span:last-child {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-dark);
+}

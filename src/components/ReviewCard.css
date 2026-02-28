@@ -1,0 +1,170 @@
+.review-card {
+    border-top: 1px solid #e2e2e2;
+    padding: 14px 0;
+}
+
+.rc-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    margin-bottom: 6px;
+}
+
+.rc-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #21a67d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.rc-user {
+    flex: 1;
+}
+
+.rc-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #232323;
+    margin: 0 0 1px;
+}
+
+.rc-verified-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.rc-verified-badge-icon {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #0b7ed3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rc-verified-icon {
+    width: 9px;
+    height: 9px;
+    filter: brightness(0) invert(1);
+}
+
+.verified-badge {
+    font-size: 10px;
+    color: #666;
+}
+
+.rc-recommend-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 5px;
+}
+
+.rc-recommend-icon {
+    width: 9px;
+    height: 9px;
+}
+
+.rc-recommend {
+    font-size: 11px;
+    color: #444;
+}
+
+.rc-stars-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.rc-stars {
+    display: flex;
+    gap: 1px;
+}
+
+.star-char {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.star-char.filled {
+    color: #f1b400;
+}
+
+.star-char.empty {
+    color: #d8d8d8;
+}
+
+.rc-date {
+    font-size: 11px;
+    color: #757575;
+}
+
+.rc-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.rc-text {
+    font-size: 11px;
+    line-height: 1.45;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.rc-variant {
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.rc-helpful {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.helpful-label {
+    font-size: 10px;
+    color: #666;
+}
+
+.helpful-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    height: 20px;
+    padding: 0 6px;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.helpful-btn.active {
+    border-color: #0b7ed3;
+    background: #eef7ff;
+}
+
+.helpful-icon {
+    width: 9px;
+    height: 9px;
+    filter: invert(34%) sepia(90%) saturate(1587%) hue-rotate(190deg) brightness(93%) contrast(95%);
+}
+
+.helpful-count {
+    font-size: 10px;
+    color: #0a67b3;
+    font-weight: 600;
+}

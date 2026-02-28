@@ -1,0 +1,74 @@
+.add-to-cart-wrapper {
+    position: sticky;
+    bottom: 0;
+    z-index: 90;
+}
+
+.add-to-cart-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    background: var(--white);
+    border-top: 1px solid #ddd6ca;
+    box-shadow: 0 -3px 14px rgba(0, 0, 0, 0.08);
+    gap: 10px;
+}
+
+.atc-btn {
+    flex: 1;
+    padding: 12px;
+    background: var(--dark-navy);
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+}
+
+.atc-btn.added {
+    background: #267a36;
+}
+
+.atc-price-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.atc-prices {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mrp {
+    font-size: 10px;
+    text-decoration: line-through;
+    color: #8d8d8d;
+}
+
+.sale-price {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.tax-info {
+    font-size: 10px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.cart-toast {
+    position: fixed;
+    left: 50%;
+    bottom: 68px;
+    transform: translateX(-50%);
+    background: #121212;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
